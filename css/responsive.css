@@ -1,0 +1,144 @@
+@media screen and (min-width: 1000px) {
+
+    .nav-list {
+        display: block;
+        position: relative;
+    }
+
+    .home {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        z-index: 4;
+    }
+
+    .about {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        z-index: 3;
+    }
+
+    .gallely {
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        z-index: 2;
+    }
+
+    .more {
+        position: absolute;
+        top: 65%;
+        left: 40%;
+        z-index: 1;
+    }
+
+    .gnav a {
+        padding: 0;
+        width: 180px;
+        height: 180px;
+        line-height: 180px;
+    }
+
+    .home-wrapper .container {
+        width: 70%;
+    }
+
+    .title-name {
+        text-align: left;
+        padding-top: 10%;
+        font-size: 4vw;
+    }
+
+    .dogfoot1 {
+        top: 12%;
+        right: 15%;
+        width: 5%;
+    }
+
+    .dogfoot2 {
+        top: 6%;
+        right: 10%;
+        width: 5%;
+    }
+
+    .top-imgbox {
+        padding: 5% 0;
+    }
+
+    .about-wrapper .container,
+    .gallely-wrapper .container,
+    .more-wrapper .container,
+    .last-wrapper .container {
+        width: 70%;
+    }
+
+    .section-mark {
+        width: 10%;
+    }
+
+    .about-title,
+    .gallely-title,
+    .more-title {
+        font-size: 4.5vw;
+    }
+
+    .about-description,
+    .gallely-description,
+    .more-description {
+        font-size: 2vw;
+    }
+
+    .profile {
+        padding-bottom: 5%;
+    }
+
+    .profile-property {
+        font-size: 2.5vw;
+        padding: 1%;
+        margin-bottom: 5%;
+    }
+
+    .profile-value {
+        font-size: 2.5vw;
+        padding: 1%;
+    }
+
+    .movie-gallely {
+        width: 70%;
+    }
+
+    .movie-gallely p {
+        padding: 3% 0 10% 0;
+        font-size: 2vw;
+    }
+
+    .owner-title,
+    .faq-title {
+        font-size: 2.5vw;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+
+    .owner-content {
+        font-size: 2vw;
+        padding: 2%;
+    }
+
+    .question {
+        font-size: 2.5vw;
+    }
+
+    .answer {
+        font-size: 2vw;
+    }
+
+    .answer .open {
+        font-size: 2vw;
+    }
+
+    .last-message {
+        font-size: 3vw;
+    }
+
+}

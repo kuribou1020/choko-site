@@ -1,0 +1,382 @@
+body {
+    font-family: Hannotate SC;
+    text-align: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.all-container {
+    margin: 0 auto
+}
+
+.nav-container {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+
+}
+
+.nav-list {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.gnav a {
+    display: block;
+    width: 100%;
+    padding: 40% 0;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 4vw;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.gnav a:hover {
+    opacity: 0.8;
+    transform: scale(1.05)
+}
+
+.home a {
+    background-color: darkgray;
+    opacity: 0.6;
+}
+
+.about a {
+    background-color: orange;
+    opacity: 0.6;
+}
+
+.gallely a {
+    background-color: pink;
+    opacity: 0.6;
+}
+
+.more a {
+    background-color: deepskyblue;
+    opacity: 0.6;
+}
+
+.home-wrapper {
+    height: 100%;
+    background-image: url('../img/bg.jpg');
+}
+
+.home-wrapper .container {
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    position: relative;
+}
+
+.title-name {
+    padding-top: 40%;
+    font-size: 5vw;
+    opacity: 0;
+}
+
+.title-name span {
+    opacity: 0;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+}
+
+.dogfoot1 {
+    position: absolute;
+    top: 16%;
+    right: 20%;
+    width: 10%;
+    opacity: 0;
+    transition: 0.4s;
+    transform: rotate(-35deg);
+}
+
+.dogfoot2 {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    width: 10%;
+    opacity: 0;
+    transition: 0.4s;
+    transform: rotate(-5deg);
+}
+
+.top-imgbox {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15% 0;
+    opacity: 0;
+    transition: 5s;
+}
+
+.top-imgbox .show {
+    opacity: 1;
+}
+
+.top-imgbox img {
+    width: 100%;
+
+}
+
+
+.about-wrapper,
+.gallely-wrapper,
+.more-wrapper,
+.last-wrapper {
+    height: 100%;
+    line-height: 1.2;
+}
+
+.about-wrapper {
+    background-image: url('../img/bg1.jpg');
+}
+
+.gallely-wrapper {
+    background-image: url('../img/bg2.jpg');
+}
+
+.more-wrapper {
+    background-image: url('../img/bg3.jpg');
+}
+
+.last-wrapper {
+    background-image: url('../img/bg4.jpg');
+}
+
+.about-wrapper .container,
+.gallely-wrapper .container,
+.more-wrapper .container,
+.last-wrapper .container {
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+}
+
+.section-mark {
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+.about-title,
+.gallely-title,
+.more-title {
+    display: inline-block;
+    font-size: 8vw;
+    padding: 1% 5%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid #000;
+    text-shadow: 1px 1px #fff;
+}
+
+.about-description,
+.gallely-description,
+.more-description {
+    font-size: 4vw;
+    margin-bottom: 12%;
+}
+
+.profile {
+    padding-bottom: 10%;
+}
+
+.profile-item {
+    display: flex;
+    justify-content: right;
+}
+
+.profile-property {
+    width: 40%;
+    height: 100%;
+    font-size: 3.5vw;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 10%;
+}
+
+.profile-value {
+    width: 60%;
+    height: 100%;
+    font-size: 3.5vw;
+    padding: 3%;
+}
+
+.photo-gallely {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+.photo-gallely img {
+    width: 32%;
+}
+
+.movie-gallely {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.movie-gallely video {
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.movie-gallely p {
+    padding: 5% 0 10% 0;
+    font-size: 3.5vw;
+}
+
+.from-owner,
+.faq {
+    padding: 0 5%;
+    padding-bottom: 10%;
+}
+
+.owner-title,
+.faq-title {
+    font-size: 4vw;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    background-color: burlywood;
+    padding: 3%;
+    margin-bottom: 8%;
+    border-radius: 50px;
+}
+
+.owner-content {
+    font-size: 3vw;
+    text-align: left;
+    padding: 3%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    line-height: 1.5em;
+}
+
+.q1, .q2, .q3, .q4, .q5 {
+    margin-bottom: 5%;
+}
+
+.question {
+    background-color: rgba(211, 211, 211, 0.7);
+    border: 1px solid #eee;
+    font-size: 3vw;
+    position: relative;
+}
+
+.question a::before {
+    content: '';
+    display: block;
+    width: 3%;
+    height: 2%;
+    border-radius: 5px;
+    background-color: #000;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+}
+
+.question a::after {
+    content: '';
+    display: block;
+    width: 3%;
+    height: 2%;
+    border-radius: 5px;
+    background-color: #000;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    transition: 0.5s;
+}
+
+.question .active::before {
+    opacity: 0;
+}
+
+.question .active::after {
+    transform: rotate(0);
+}
+
+.question a {
+    display: block;
+    padding: 3%;
+    transition: 0.3s;
+}
+
+.question a:hover {
+    background-color: darkgray;
+    color: beige;
+}
+
+.answer {
+    padding: 5% 3%;
+    font-size: 2.8vw;
+    border: 1px solid #eee;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+}
+
+.answer .open {
+    padding: 5% 3%;
+    font-size: 2.5vw;
+    border: 1px solid #eee;
+    background-color: burlywood;
+    display: block;
+}
+
+.last-message {
+    font-size: 4vw;
+    padding-bottom: 10%;
+}
+
+.last-wrapper .container {
+    padding-bottom: 5%;
+}
+
+.swiper-container {
+    padding: 0 5%;
+}
+
+.swiper-wrapper {
+    padding-bottom: 10%;
+}
+
+.swiper-wrapper img {
+    width: 100%;
+}
+
+footer {
+    background-image: url('../img/bg.jpg');
+}
+
+footer p {
+    font-size: 1.5vw;
+    padding: 2% 0;
+}
+
+.anim {
+    opacity: 0;
+    -webkit-transform: translate(0, 45px);
+            transform: translate(0, 45px);
+    -webkit-transition: all 1000ms;
+    transition: all 1000ms;
+}
+
+.show {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+}
