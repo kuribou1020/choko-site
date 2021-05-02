@@ -79,7 +79,7 @@ a {
 
 .title-name {
     padding-top: 40%;
-    font-size: 5vw;
+    font-size: 1.3rem;
     opacity: 0;
 }
 
@@ -123,9 +123,7 @@ a {
 
 .top-imgbox img {
     width: 100%;
-
 }
-
 
 .about-wrapper,
 .gallely-wrapper,
@@ -171,7 +169,7 @@ a {
 .gallely-title,
 .more-title {
     display: inline-block;
-    font-size: 8vw;
+    font-size: 2rem;
     padding: 1% 5%;
     margin-bottom: 5%;
     border-bottom: 2px solid #000;
@@ -181,7 +179,7 @@ a {
 .about-description,
 .gallely-description,
 .more-description {
-    font-size: 4vw;
+    font-size: 1rem;
     margin-bottom: 12%;
 }
 
@@ -195,9 +193,9 @@ a {
 }
 
 .profile-property {
-    width: 40%;
+    width: 50%;
     height: 100%;
-    font-size: 3.5vw;
+    font-size: 1rem;
     padding: 3%;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -205,9 +203,9 @@ a {
 }
 
 .profile-value {
-    width: 60%;
+    width: 50%;
     height: 100%;
-    font-size: 3.5vw;
+    font-size: 1rem;
     padding: 3%;
 }
 
@@ -232,11 +230,6 @@ a {
     padding-bottom: 50px;
 }
 
-.movie-gallely p {
-    padding: 5% 0 10% 0;
-    font-size: 3.5vw;
-}
-
 .from-owner,
 .faq {
     padding: 0 5%;
@@ -245,7 +238,7 @@ a {
 
 .owner-title,
 .faq-title {
-    font-size: 4vw;
+    font-size: 1rem;
     color: #fff;
     text-shadow: 1px 1px #000;
     background-color: burlywood;
@@ -255,7 +248,7 @@ a {
 }
 
 .owner-content {
-    font-size: 3vw;
+    font-size: 0.9rem;
     text-align: left;
     padding: 3%;
     background-color: rgba(255, 255, 255, 0.3);
@@ -270,7 +263,7 @@ a {
 .question {
     background-color: rgba(211, 211, 211, 0.7);
     border: 1px solid #eee;
-    font-size: 3vw;
+    font-size: 1rem;
     position: relative;
 }
 
@@ -323,7 +316,7 @@ a {
 
 .answer {
     padding: 5% 3%;
-    font-size: 2.8vw;
+    font-size: 1rem;
     border: 1px solid #eee;
     background-color: rgba(255, 255, 255, 0.5);
     display: none;
@@ -338,7 +331,7 @@ a {
 }
 
 .last-message {
-    font-size: 4vw;
+    font-size: 1rem;
     padding-bottom: 10%;
 }
 
@@ -363,7 +356,7 @@ footer {
 }
 
 footer p {
-    font-size: 1.5vw;
+    font-size: 0.7rem;
     padding: 2% 0;
 }
 
